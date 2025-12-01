@@ -1,4 +1,4 @@
 # Google_Street_View_Bicycle_Rollers_Interface
-Send info from a hall sensor on the rollers + on the handlebars (joystick module + scroll/left/right/toggle motion click buttons) + Arduino to PC to control Google Street View and ride authentically at the same time.
+Send info from a hall sensor on the rollers + on the handlebars (joystick module + scroll/left click/right click/toggle motion buttons) + Arduino to PC to control Google Street View and ride authentically at the same time.
 
 These files, Copyright Ron Lyttle 2025.
