@@ -9,11 +9,13 @@ I am chopping up a standard wheel sensor reed switch and using a wheel magnet.
 
 330 ohm inline, 't' a 10k ohm to ground.
 
+And now I am using a hall sensor.
+
 Press control + m on the KB to toggle motion effect.
 
 I have now added a new version that uses OpenTrack for head controlled viewing.
 
-Set it to FreeTrack 2.0, 127.0.0.1 port 4242.
+Set it to FreeTrack 2.0 Enhanced, 127.0.0.1 port 4242.
 
 
 These files, Copyright Ron Lyttle 2025.
