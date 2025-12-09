@@ -21,7 +21,7 @@ const int HALL_SENSOR_PIN = A0;
 // Center reading (no magnet) is usually around 512 (2.5V).
 // Adjust THRESHOLD based on your sensor and magnet strength.
 // Example: If reading drops to 300 when magnet passes, set THRESHOLD to 400.
-const int MAGNET_THRESHOLD = 400; 
+const int MAGNET_THRESHOLD = 600; 
 
 // --- SPEED VARIABLES ---
 unsigned long lastPulseTime = 0;
@@ -77,8 +77,8 @@ void loop() {
 void readSensor() {
   int analogReading = analogRead(HALL_SENSOR_PIN);
   
-  // Logic to detect the *falling edge* of the pulse (crossing the threshold)
-  if (analogReading < MAGNET_THRESHOLD) {
+  // Logic to detect the *rising edge* of the pulse (crossing the threshold)
+  if (analogReading > MAGNET_THRESHOLD) {
     // Magnet is near the sensor
     if (magnetDetected == false) {
       // This is the moment the magnet crosses the threshold (falling edge)
