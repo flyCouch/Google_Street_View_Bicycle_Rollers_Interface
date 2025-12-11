@@ -7,7 +7,7 @@
 #include "RF24.h"
 
 // --- NRF24L01 PIN DEFINITIONS ---
-RF24 radio(9, 10); // CE, CSN
+RF24 radio(10, 9); // CE, CSN
 const byte addresses[][6] = {"00001"}; // Unique address for the pipe (MUST MATCH TX)
 
 // --- DATA STRUCTURE (MUST MATCH TRANSMITTER - 1 PART) ---
