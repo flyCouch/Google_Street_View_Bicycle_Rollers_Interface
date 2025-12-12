@@ -21,7 +21,7 @@ const int MAGNET_THRESHOLD = 650; // Adjust this based on your sensor and magnet
 unsigned long lastPulseTime = 0;
 bool magnetDetected = false; 
 bool isSpinning = false; // Tracks the current transmission state
-const unsigned long TIMEOUT_STOP_MS = 500; // 0.5 seconds without a pulse = stopped
+const unsigned long TIMEOUT_STOP_MS = 1000; // 1 second without a pulse = stopped
 
 // --- FUNCTION PROTOTYPES ---
 void readSensor();
