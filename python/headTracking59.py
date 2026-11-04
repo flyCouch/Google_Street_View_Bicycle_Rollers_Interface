@@ -55,7 +55,7 @@ def release_up():
 DEFAULT_PROFILE = {
     "X_DEAD": 0.02,
     "Z_DEAD": 0.12,
-    "X_MAX": 0.3,
+    "X_MAX": 0.18,
     "Z_MAX": 0.3,
     "X_PAN_GAIN": 250.0,
     "Y_PAN_GAIN": 35.0,
